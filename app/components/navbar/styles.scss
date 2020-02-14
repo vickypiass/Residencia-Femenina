@@ -1,0 +1,13 @@
+.nav {
+    background-color: rgb(171, 235, 179);
+    .lista {
+        display: flex;
+        &> li {
+            list-style: none;
+            margin: 8px;
+            &> a {
+            text-decoration: none;
+            }
+        }
+    }
+}
