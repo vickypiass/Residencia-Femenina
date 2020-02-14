@@ -1,7 +1,13 @@
-<h1 local-class="titulo">Residencia Universitaria Femenina</h1>
+<div local-class="layout">
+    <Navbar local-class="navbar" />
 
-<Navbar />
+    <header local-class="header">
+        <h1 local-class="titulo">Residencia Universitaria Femenina</h1>
+    </header>
 
-{{outlet}}
+    <main local-class="main">
+        {{outlet}}
+    </main>
 
-<Footer />
+    <Footer local-class="footer" />
+</div>

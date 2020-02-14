@@ -1,6 +1,7 @@
 .icono {
     height: 50px;
     width: 50px;
+    margin-right: 24px;
 }
 .footer {
     display: flex;
@@ -18,4 +19,8 @@
 .medio-contacto {
     display: flex;
     margin-right: 18px;
+}
+.texto {
+    font-weight: 600;
+    margin-bottom: 2px;
 }
