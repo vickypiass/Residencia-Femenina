@@ -1,4 +1,4 @@
-.icono {
+.icon {
     height: 50px;
     width: 50px;
     margin-right: 24px;
@@ -8,19 +8,24 @@
     flex-direction: column;
     align-items: center;
 }
-.fila {
+.row {
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
+    margin-bottom: 32px;
+    &:first-child {
+        padding-bottom: 32px;
+        border-bottom: 1px solid black;
+    }
 }
-.medio-contacto {
+.contact-medium {
     display: flex;
     margin-right: 18px;
 }
-.texto {
+.text {
     font-weight: 600;
-    margin-bottom: 2px;
+    margin-bottom: 8px;
 }
